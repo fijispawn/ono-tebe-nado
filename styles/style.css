@@ -132,7 +132,7 @@ header {
 .lots__heading {
   font-size: 40px;
   font-weight: bold;
-  margin-left: 62px;
+  margin-left: 64px;
   text-transform: uppercase;
   font-family: "Raleway", sans-serif;
 }
@@ -206,7 +206,7 @@ header {
 }
 
 .lots__look-more-link {
-  margin-left: 62px;
+  margin-left: 64px;
   font-size: 20px;
   font-weight: 400;
   line-height: 23.48px;
