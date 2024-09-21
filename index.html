@@ -12,6 +12,12 @@
   <body>
     <!-- Хэдэр -->
     <header class="header">
+      <!-- Логотип вынесен из nav -->
+      <a href="#" class="header__logo-container">
+        <img class="header__logo" src="images/logo-black.svg" alt="логотип" />
+      </a>
+      
+      <!-- Навигационное меню -->
       <nav class="header__nav">
         <ul class="header__nav-list">
           <li class="header__list-item_no-circle">
@@ -20,18 +26,16 @@
           <li><a href="#lots" class="header__link">посмотреть лоты</a></li>
           <li><a href="#about" class="header__link">об аукционе</a></li>
         </ul>
-        <a class="header__logo-container">
-          <img class="header__logo" src="images/logo-black.svg" alt="логотип" />
-        </a>
       </nav>
-
+    
+      <!-- Контактная информация -->
       <address class="header__contacts address__common">
         <a href="tel:+9995555555" class="contact-link">+9 999 555 5555</a><br />
-        <a href="mailto:info@sobaka.ge" class="contact-link">info@sobaka.ge</a
-        ><br />
-        наб. Принсенграхт 263-265, Амстердам
+        <a href="mailto:info@sobaka.ge" class="contact-link">info@sobaka.ge</a><br />
+        наб. Принсенграхт 263-<br />265, Амстердам
       </address>
     </header>
+    
 
     <!-- Мэйн контент -->
     <main class="main">
@@ -39,15 +43,15 @@
         <div class="cover__title">
           <h1 class="cover__heading">
             <span class="cover__line-ono"
-              >о <span class="letter-spacing-60">но</span>
+              >о <span class="letter-spacing-extended">но</span>
             </span>
             <span class="cover__line-tebe"
-              >те <span class="letter-spacing-60">бе</span></span
+              >те <span class="letter-spacing-extended">бе</span></span
             >
             <span class="cover__line-nado">
-              <span class="letter-spacing-60">н</span>
-              <span class="letter-spacing-30"
-                >а<span class="letter-spacing-30">д</span></span
+              <span class="letter-spacing-extended">н</span>
+              <span class="letter-spacing-standard"
+                >а<span class="letter-spacing-standard">д</span></span
               >
               <span class="letter">о</span>
             </span>
@@ -157,7 +161,7 @@
         <a href="tel:+9995555555" class="contact-link">+9 999 555 5555</a><br />
         <a href="mailto:info@sobaka.ge" class="contact-link">info@sobaka.ge</a
         ><br />
-        наб. Принсенграхт 263-265, Амстердам
+        наб. Принсенграхт 263-<br/>265, Амстердам
       </address>
       <nav class="footer__nav">
         <ul class="footer__menu-list">
